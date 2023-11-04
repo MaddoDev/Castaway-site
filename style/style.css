@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+@import url(reset.css);
+
+body {
+    background: #191919;
+}
+
+.header {
+    width: 1440px;
+    height: 1032px;
+}
+
+.header-container {
+    max-width: 1440px;
+    height: 119px;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo {
+    margin: 43px 0 43px 50px;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 40px;
+
+}
+
+.nav-link {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+}
+.active {
+    color: #118DA8;;
+}
