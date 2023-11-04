@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
 @import url(reset.css);
 
-body {
-    background: #191919;
-}
+
+/* начало Header */
 
 .header {
     width: 1440px;
     height: 1032px;
+    background-color: #191919;
 }
 
 .header-container {
@@ -15,9 +15,12 @@ body {
     height: 119px;
 
 
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+
 
 }
 
@@ -31,6 +34,10 @@ body {
 
 }
 
+.header-nav {
+    margin-right: 70px;
+}
+
 .nav-link {
     color: #FFF;
     font-family: DM Sans;
@@ -42,3 +49,68 @@ body {
 .active {
     color: #118DA8;;
 }
+
+/* Начало subheader */
+
+.header-title {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px; 
+    letter-spacing: 3.2px;
+
+
+
+}
+
+.subheader-container {
+    width: 1440px;
+
+    display: flex;
+    align-items: center;
+
+    column-gap: 60px;
+
+    position: relative;
+
+}
+
+.container-of-services h2 {
+    margin-top: 90px;
+    margin-bottom: 16px;
+
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.list-services {
+    display: flex;
+    column-gap: 17px;
+}
+
+.subheader-logo {
+    margin-left: 70px;
+
+}
+
+.decorative-line {
+    position: absolute;
+    top: -27px;
+    left: 43px;
+
+}
+
+.header-bold-text {
+    font-weight: 700; 
+}
+
+.next-decoration {
+    background-image: url(/img/LineUnderText.svg);
+}
+
